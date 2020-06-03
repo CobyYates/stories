@@ -1,0 +1,58 @@
+:local .content {
+  border-radius: 5px;
+  transition: background-color 0.15s ease-in-out;
+}
+:local .token.active .content {
+  background-color: #62e1f7;
+}
+
+/* http://www.storysense.com/SPFormat.pdf */
+
+:local .tokenType {
+  box-sizing: border-box;
+  width: 100%;
+}
+/* left 1.5 right 1.0 width 6.0 */
+:local .tokenType--action {
+  padding-left: 17.65%;
+  padding-right: 11.76%;
+  margin-bottom: 1em;
+}
+/* left 4.2 right 1.0 width 3.3 */
+:local .tokenType--character {
+  text-transform: uppercase;
+  padding-left: 49.41%;
+  padding-right: 11.76%;
+}
+/* left 2.9 right 2.3 width 3.3 */
+:local .tokenType--dialogue {
+  padding-left: 34.12%;
+  padding-right: 27.06%;
+  margin-bottom: 1em;
+}
+/* left 3.6 right 2.9 width 2.0 */
+:local .tokenType--parenthetical {
+  padding-left: 42.35%;
+  padding-right: 34.12%;
+  margin-bottom: 1em;
+}
+/* left 6.0 right 1.0 width 1.5 */
+:local .tokenType--transition {
+  padding-left: 70.59%;
+  padding-right: 11.76%;
+}
+:local .tokenType--dialogue_end {
+}
+:local .tokenType--dialogue_begin {
+  margin-top: 1em;
+}
+:local .tokenType--page_break {
+  background-color: #999;
+  box-shadow: 0 0 5px 5px inset #000;
+}
+:local .tokenType--scene_heading {
+  text-transform: uppercase;
+  padding-left: 17.65%;
+  padding-right: 11.76%;
+  margin-bottom: 1em;
+}

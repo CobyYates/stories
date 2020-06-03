@@ -1,0 +1,14 @@
+:local .menuItem {
+  background-color: #F2F0F2;
+  border-bottom: 1px solid #999999;
+  color: #5D5D5B;
+  padding: 17px;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  transition: background-color 0.1s ease-in-out;
+}
+:local .menuItem.active {
+  background-color: #616261;
+  color: #FFFFFF;
+}

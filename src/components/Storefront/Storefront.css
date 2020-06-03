@@ -1,0 +1,29 @@
+:local .title {
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+:local .title strong {
+  font-weight: 800;
+}
+
+:local .thumbnailGrid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 10px;
+}
+
+:local .thumbnail {
+  width: 190px;
+  margin: 10px;
+}
+
+:local .thumbnailAlignment {
+  width: 190px;
+  margin: 0 10px;
+}

@@ -1,0 +1,35 @@
+:local .wrapper {
+  font-family: Roboto, sans-serif;
+}
+
+:local .thumbnail {
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+:local .description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+:local .title {
+  margin: 0;
+  font-weight: 200;
+}
+
+:local .link {
+  text-decoration: none;
+  background-color: #3B8BBF;
+  color: #FFFFFF;
+  display: inline-block;
+  line-height: 30px;
+  width: 80px;
+  text-align: center;
+  transition: background-color 0.1s ease-in-out;
+}
+
+:local .link:hover {
+  background-color: #4B9BCF;
+}

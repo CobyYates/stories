@@ -1,0 +1,37 @@
+:local .player {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+:local .movieWrapper {
+  height: 50%;
+  position: relative;
+}
+
+:local .movieHelpers {
+  height: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+:local .scriptWrapper {
+  flex: 1 1 auto;
+  height: 100%;
+}
+:local .navigationWrapper {
+  width: 220px;
+  flex: 1 0 auto;
+  height: 100%;
+}
+
+@media screen and (orientation: landscape) {
+  :local .movieWrapper {
+    height: 100%;
+  }
+  :local .movieHelpers {
+    display: none;
+  }
+}
